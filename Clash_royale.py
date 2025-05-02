@@ -40,4 +40,11 @@ perolas_ocultas = df[
     (df['Uso'] < 5) & (df['Taxa de vitoria'] > 55)
 ].nlargest(10, 'Taxa de vitoria')
 
-
+print(mascara_10melhores_carta)
+print(mascara_10piores_cartas)
+print(mascara_cartas_mais_usadas)
+print(mascara_cartas_menos_usadas)
+print(mascara_cartas_mais_usadas_menor_winrate)
+print(mascara_cartas_menos_usadas_maior_winrate)
+print(cartas_armadilhas)
+print(perolas_ocultas)
